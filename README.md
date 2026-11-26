@@ -28,10 +28,39 @@ Su repositorio documental es **Archisolut Knowledge Vault**, una unidad comparti
 
 **Importante:** la existencia de un enlace no concede permisos de acceso. Conectar un asistente al Vault requiere un conector compatible, una cuenta autorizada y el cumplimiento de las reglas corporativas.
 
+## Descarga tu Skill — Archisolut Digital Brain v1.0.0
+
+**¡Ya puedes comenzar!** Selecciona la herramienta que utilizas y descarga el paquete correspondiente. Los archivos se distribuyen en la carpeta pública [`dist/`](dist/). **No necesitas saber programar ni utilizar Git para descargarlos.**
+
+| Herramienta de IA | Descargar Skill v1.0.0 | Qué recibes |
+| --- | --- | --- |
+| **Claude Code** | [Descargar ZIP](dist/archisolut-digital-brain-claude-code-v1.0.0.zip) | Skill y guía para Claude Code. |
+| **ChatGPT** | [Descargar ZIP](dist/archisolut-digital-brain-chatgpt-v1.0.0.zip) | Skill y alternativas de configuración según las funciones disponibles. |
+| **OpenAI Codex** | [Descargar ZIP](dist/archisolut-digital-brain-codex-v1.0.0.zip) | Skill y guía para Codex. |
+| **GitHub Copilot** | [Descargar ZIP](dist/archisolut-digital-brain-copilot-v1.0.0.zip) | Skill y guía para entornos compatibles de Copilot. |
+| **Gemini CLI** | [Descargar ZIP](dist/archisolut-digital-brain-gemini-cli-v1.0.0.zip) | Skill y guía para Gemini CLI. |
+| **Cursor** | [Descargar ZIP](dist/archisolut-digital-brain-cursor-v1.0.0.zip) | Skill y guía para Cursor. |
+| **Windsurf / Devin Local** | [Descargar ZIP](dist/archisolut-digital-brain-windsurf-v1.0.0.zip) | Paquete adaptable; verifica la compatibilidad con tu edición. |
+| **Google Antigravity** | [Descargar ZIP](dist/archisolut-digital-brain-antigravity-v1.0.0.zip) | Skill y guía de integración para el entorno compatible. |
+| **Otras IA / Archiebot / chats sin Skills** | [Descargar instrucciones](dist/archisolut-digital-brain-instrucciones-chat-v1.0.0.zip) | Texto de instrucciones para copiar en tu asistente, cuando esté permitido. |
+
+> **Importante:** estos archivos son paquetes de instrucciones, **no instaladores de software**. La posibilidad de importar o activar Skills depende de la plataforma, edición y cuenta. Los paquetes publicados no implican que se hayan validado todas las configuraciones de cada proveedor.
+
+### Cómo empezar en cuatro pasos
+
+1. **Elige tu IA** en la tabla y haz clic en **Descargar ZIP**. En GitHub, abre el archivo y utiliza la opción de descarga si el navegador no inicia la descarga automáticamente.
+2. **Descomprime el ZIP** y **lee primero `LEEME.md`** (o el archivo de instrucciones incluido). Sigue únicamente el procedimiento correspondiente a tu herramienta.
+3. **Configura el Skill** según las capacidades de tu asistente. Si tu cuenta no admite Skills, utiliza la [alternativa para chats](dist/archisolut-digital-brain-instrucciones-chat-v1.0.0.zip) donde tu plataforma permita instrucciones persistentes.
+4. **Prueba sin datos sensibles:** «¿Qué es el Digital Brain de Archisolut, qué debes consultar antes de reutilizar una solución y qué permisos necesitas para acceder al Vault?». La IA debe explicar la metodología **sin fingir que puede ver los documentos protegidos**.
+
+**¿No tienes acceso al Digital Brain?** Puedes usar la metodología general del Skill, pero no podrás consultar sus archivos hasta contar con la autorización y una integración compatible. Solicita el acceso por los canales corporativos establecidos; **nunca compartas contraseñas o tokens por chat**.
+
+**Para desarrolladores y mantenedores:** el origen del Skill está en [`skills/archisolut-digital-brain/`](skills/archisolut-digital-brain/) y los adaptadores, en [`paquetes/`](paquetes/). Los ZIP de `dist/` son artefactos de distribución; no deben considerarse una fuente distinta de reglas.
+
 ## Primeros pasos
 
 1. **Elige tu asistente de IA.** Puedes utilizar una herramienta autorizada para tus actividades profesionales; no es necesario que todos los colaboradores utilicen el mismo proveedor.
-2. **Consulta las instrucciones de incorporación.** Cuando publiquemos el Skill de Archisolut Digital Brain, estará acompañado de una guía de instalación o alternativa de instrucciones iniciales para cada herramienta compatible.
+2. **Descarga el paquete para tu herramienta.** Consulta la sección [Descarga tu Skill](#descarga-tu-skill---archisolut-digital-brain-v100), elige tu asistente y sigue el archivo `LEEME.md` incluido. Si tu asistente no admite Skills, utiliza las instrucciones para chats.
 3. **Conecta únicamente servicios autorizados.** No compartas contraseñas, tokens ni credenciales corporativas para configurar asistentes.
 4. **Pide al agente que lea las reglas del Vault.** El primer documento que debe buscar es `AGENTS.md`, seguido de `05-Recursos/Guía para IA y Agentes.md` y `05-Recursos/Taxonomía del Vault.md`. Para trabajos técnicos, también debe consultar `05-Recursos/Stack Tecnológico.md`.
 5. **Empieza por consultar antes de crear.** Antes de repetir una solución, pregunta qué antecedentes, experiencias o recursos existen en el Digital Brain.
@@ -45,7 +74,7 @@ Este texto orienta el comportamiento del agente, pero **no instala un conector n
 
 ## ¿Qué recursos encontrará el equipo aquí?
 
-El catálogo crecerá progresivamente. Cada recurso se publicará con instrucciones, compatibilidad y versión verificadas.
+El catálogo crecerá progresivamente. La primera colección de Skills está disponible en [`dist/`](dist/); otros recursos se incorporarán cuando estén revisados y documentados.
 
 | Recurso | Finalidad |
 | --- | --- |
@@ -56,7 +85,7 @@ El catálogo crecerá progresivamente. Cada recurso se publicará con instruccio
 | **Plantillas y descargables** | Archivos ZIP, Markdown y otros recursos reutilizables. |
 | **Seguridad y buenas prácticas** | Reglas para proteger información, verificar resultados y evitar acciones no autorizadas. |
 
-**Estado del catálogo:** incorporación progresiva. Una categoría descrita aquí no significa que todos sus paquetes ya estén disponibles o validados.
+**Estado del catálogo:** Skills Digital Brain v1.0.0 publicados como archivos ZIP en `dist/`, según la estructura de esta distribución. Su disponibilidad no implica compatibilidad probada en todas las cuentas o versiones. Las demás categorías siguen en incorporación progresiva.
 
 ## Skills, prompts y conectores: ¿cuál es la diferencia?
 
@@ -83,6 +112,14 @@ En la práctica:
 
 No se debe convertir cada conversación en una nota. **La prioridad es la calidad y utilidad del conocimiento, no el número de archivos.**
 
+## Seguridad y distribución pública
+
+**Este repositorio es público.** Cualquier persona puede consultar sus archivos y descargar los Skills; **los enlaces a plataformas corporativas no hacen públicos los documentos ni otorgan acceso al Vault**.
+
+Solo deben publicarse instrucciones generales, ejemplos ficticios, plantillas, contenido aprobado y enlaces cuya divulgación haya sido revisada. **Nunca** incluyas credenciales, tokens, secretos, archivos `.env`, datos de clientes, información de empleados, documentación confidencial, configuraciones privadas de conectores ni detalles de infraestructura sensibles. Revisa también nombres de archivos, historial Git, metadatos, archivos ZIP y destinos de los enlaces antes de publicar.
+
+No copies documentos protegidos de Google Drive, Notion o del Digital Brain al repositorio. Si detectas una posible exposición, **no la soluciones solo borrando el archivo de la última versión**: informa al responsable de seguridad para valorar revocación de credenciales, alcance e historial Git.
+
 ## Seguridad y gobernanza
 
 El uso de IA debe respetar las políticas corporativas y las capacidades autorizadas de cada colaborador.
@@ -98,22 +135,24 @@ Para desarrollos, integraciones o automatizaciones del ecosistema Archisolut, co
 
 ## Descargas, versiones y contribuciones
 
-Los recursos aprobados se podrán distribuir mediante archivos del repositorio y versiones publicadas en **GitHub Releases**. Cada entrega deberá indicar qué contiene, para qué herramientas es compatible y qué pasos de instalación se han comprobado.
+Los Skills v1.0.0 se encuentran en la [carpeta pública de descargas `dist/`](dist/). **GitHub Releases es una opción de distribución futura y no se afirma aquí que ya exista una Release.** Cada versión debe indicar contenido, compatibilidad y grado de pruebas realizado; publicar un ZIP no equivale a certificar una instalación end-to-end.
 
 Si deseas proponer una mejora o un recurso nuevo, contacta al responsable del programa o utiliza el procedimiento de contribución corporativo que se publique. **No agregues directamente secretos, datos sensibles ni documentos internos del Vault a este repositorio.**
 
-El acceso a este repositorio y a sus descargas depende de los permisos otorgados por Archisolut.
+El **repositorio público y sus descargas son accesibles sin permisos corporativos**. Los sistemas internos enlazados mantienen sus propias reglas de autenticación y autorización.
 
 ## Alcance actual y evolución
 
-Esta es la base documental del proyecto. Los Skills, paquetes descargables, adaptadores, guías por herramienta e integraciones se incorporarán por etapas, con revisión y pruebas antes de anunciarlos como disponibles.
+Esta es la base documental del proyecto. La primera colección de Skills y adaptadores está distribuida en `dist/`; las integraciones y recursos adicionales llegarán por etapas, sujetos a revisión, seguridad, autorizaciones y pruebas antes de anunciarlos como plenamente compatibles.
 
 En el futuro, este repositorio podrá incluir procedimientos controlados para colaboración entre agentes y flujos de desarrollo. **No concede por sí mismo facultades de despliegue, escritura o administración.**
 
 ---
 
-### Liderazgo y coordinación
+### Dirección y coordinación
 
 **Carlos Garzón C.**  
 *AI & Automation Engineer*  
 **Archisolut / Architectural Solutions LLC**
+
+*Archisolut AI Hub — Construyendo capacidades de IA y conocimiento compartido para toda la organización.*
