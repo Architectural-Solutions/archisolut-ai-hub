@@ -192,7 +192,7 @@ En el futuro, este repositorio podrá incluir procedimientos controlados para co
 
 ---
 
-### Dirección y coordinación
+### Liderazgo y coordinación
 
 **Carlos Garzón C.**  
 *AI & Automation Engineer*  
