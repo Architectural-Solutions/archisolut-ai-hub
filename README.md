@@ -72,6 +72,49 @@ Su repositorio documental es **Archisolut Knowledge Vault**, una unidad comparti
 
 Este texto orienta el comportamiento del agente, pero **no instala un conector ni concede acceso por sí mismo**.
 
+## Biblioteca de Prompts ARCHISOFT
+
+Explora nuestra biblioteca de prompts diseñados para consultar, analizar y dar seguimiento a proyectos, tareas, disciplinas y actividades mediante ARCHISOFT, respetando los permisos de cada usuario.
+
+**[Explorar catálogo completo →](prompts/archisoft/README.md)** · **[Guía de uso de prompts ARCHISOFT](docs/GUIA-DE-USO-PROMPTS-ARCHISOFT.md)**
+
+ARCHISOFT es el conector que permite a Claude **consultar** la información operativa de los proyectos de Archisolut: estados, fases, tareas, responsables y vencimientos. Cada consulta se ejecuta **con los permisos de la persona autenticada y en solo lectura**: devuelve únicamente lo que esa persona ya puede ver en el CRM, y no modifica registros, no reasigna tareas ni envía correos. Consultar el CRM tampoco equivale a abrir planos, PDFs o cálculos: para cualquier análisis de entregables hay que adjuntar los documentos.
+
+### Empieza con estos tres prompts
+
+| Prompt | Caso de uso |
+| --- | --- |
+| **[Revisión de proyectos de mi disciplina](prompts/archisoft/01-seguimiento-proyectos/01-diagnostico-de-mi-disciplina.md)** | Revisar los proyectos activos de tu disciplina, su estado, lo pendiente y lo vencido, y fijar las tres prioridades de la semana. |
+| **[Tareas vencidas y pendientes](prompts/archisoft/02-control-tareas/03-tareas-vencidas-y-proximos-vencimientos.md)** | Ver qué está vencido y qué vence en los próximos 7 días, ordenado por severidad y con la próxima acción de cada tarea. |
+| **[Preparación de reunión semanal](prompts/archisoft/03-coordinacion/05-revision-semanal-para-manager.md)** | Preparar la revisión semanal del equipo: novedades verificables, pendientes por responsable y decisiones a tomar o escalar. |
+
+Abre el documento, copia el bloque **«Prompt para copiar»** y pégalo en Claude con el conector ARCHISOFT autorizado.
+
+### Catálogo por categorías
+
+| Categoría | Contenido |
+| --- | --- |
+| **[Seguimiento de proyectos](prompts/archisoft/01-seguimiento-proyectos/)** | Revisión por disciplina, portafolio y proyectos individuales |
+| **[Control de tareas](prompts/archisoft/02-control-tareas/)** | Vencimientos, seguimiento y carga de trabajo |
+| **[Coordinación](prompts/archisoft/03-coordinacion/)** | Bloqueos, reuniones y compromisos |
+| **[Entregas y clientes](prompts/archisoft/04-entregas-clientes/)** | Fases, comentarios de ciudad y correcciones |
+| **[Dirección](prompts/archisoft/05-direccion/)** | Riesgos, decisiones y prioridades |
+| **[Calidad de datos](prompts/archisoft/06-calidad-datos/)** | Consistencia y revisión de información del CRM |
+| **[Revisión técnica](prompts/archisoft/07-revision-tecnica/)** | Revisiones PCL y MEF con las limitaciones documentales aplicables |
+
+### Cómo utilizar un prompt
+
+1. **Identifica el prompt que necesitas** en el catálogo o en la tabla de arriba.
+2. **Abre el documento Markdown** desde GitHub.
+3. **Copia el prompt** y utilízalo en Claude con el conector ARCHISOFT habilitado.
+4. **Revisa los resultados** según tus permisos y la información realmente disponible en el CRM.
+
+Un prompt es un texto de instrucciones: **no concede permisos adicionales, no amplía tu acceso y no reemplaza la validación humana**. Si una respuesta indica que no hay acceso a algo, la vía correcta es solicitar el permiso por el canal corporativo.
+
+**Estado de la biblioteca: documentada y revisada, pendiente de validación funcional.** Ningún prompt se ha probado todavía contra el conector real, de modo que las entidades y campos que suponen deben comprobarse con un usuario real antes de adoptarlos como estándar corporativo.
+
+Los procedimientos internos de revisión final de jefatura (PCL y MEF) **no se publican en este repositorio**; los prompts que los acompañan explican cómo solicitarlos por un canal autorizado.
+
 ## ¿Qué recursos encontrará el equipo aquí?
 
 El catálogo crecerá progresivamente. La primera colección de Skills está disponible en [`dist/`](dist/); otros recursos se incorporarán cuando estén revisados y documentados.
