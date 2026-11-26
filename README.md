@@ -112,10 +112,8 @@ En el futuro, este repositorio podrá incluir procedimientos controlados para co
 
 ---
 
-### Dirección y coordinación
+### Liderazgo y coordinación
 
 **Carlos Garzón C.**  
 *AI & Automation Engineer*  
 **Archisolut / Architectural Solutions LLC**
-
-*Archisolut AI Hub — Construyendo capacidades de IA y conocimiento compartido para toda la organización.*
