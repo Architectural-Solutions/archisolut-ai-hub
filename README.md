@@ -115,6 +115,30 @@ Un prompt es un texto de instrucciones: **no concede permisos adicionales, no am
 
 Los procedimientos internos de revisión final de jefatura (PCL y MEF) **no se publican en este repositorio**; los prompts que los acompañan explican cómo solicitarlos por un canal autorizado.
 
+## Aprende y desarrolla tus habilidades en IA
+
+En Archisolut creemos que aprender a utilizar la inteligencia artificial puede ayudarnos a trabajar de forma más ágil, explorar nuevas ideas y fortalecer nuestras capacidades profesionales.
+
+Por eso hemos seleccionado cursos gratuitos y recursos educativos en español, organizados desde los conceptos básicos hasta aplicaciones avanzadas de IA y automatización.
+
+**[Explorar cursos gratuitos de inteligencia artificial](docs/RECURSOS-DE-FORMACION-IA.md)**
+
+| Nivel | Para quién | Qué consigues |
+| --- | --- | --- |
+| **1. Fundamentos y primeros pasos** | Cualquier persona del equipo, sin conocimientos previos | Entender qué es la IA, qué puede y qué no puede hacer, y escribir buenas instrucciones |
+| **2. IA aplicada al trabajo** | Quien quiera ganar productividad en su día a día | Usar asistentes de IA en tareas reales, con criterio sobre privacidad y seguridad |
+| **3. Agentes y automatización** | Perfiles avanzados, responsables de implementación y desarrollo | Diseñar y publicar agentes que automatizan procesos |
+
+### ¿Empiezas desde cero? Estos tres cursos
+
+| Curso | Institución | Duración |
+| --- | --- | --- |
+| **[Iníciate en inteligencia artificial](https://generaciond.gob.es/iniciate-en-inteligencia-artificial-4998)** | Fundación Accenture · Generación D | 1 hora |
+| **[Introducción a la IA y Prompt Engineering](https://founderz.com/es/programa/introduccion-a-la-ia-y-prompt-engineering/)** | Founderz, con Microsoft | 7,5 horas |
+| **[Elementos de IA](https://www.elementsofai.com/es)** | Universidad de Helsinki · MinnaLearn | A tu ritmo |
+
+Son cursos de terceros, gratuitos y en español. Cada uno pertenece a la institución que lo imparte; Archisolut no está afiliado a ellas por recomendarlos, y **formarse no es una obligación corporativa**. Antes de registrarte, recuerda que **no debe introducirse información confidencial de Archisolut en plataformas externas** y que inscribirse en un curso no concede acceso a ARCHISOFT ni al Digital Brain.
+
 ## ¿Qué recursos encontrará el equipo aquí?
 
 El catálogo crecerá progresivamente. La primera colección de Skills está disponible en [`dist/`](dist/); otros recursos se incorporarán cuando estén revisados y documentados.
