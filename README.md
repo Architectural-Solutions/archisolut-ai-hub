@@ -34,23 +34,23 @@ Su repositorio documental es **Archisolut Knowledge Vault**, una unidad comparti
 
 | Herramienta de IA | Descargar Skill v1.0.0 | Qué recibes |
 | --- | --- | --- |
-| **Claude Code** | [Descargar ZIP](dist/archisolut-digital-brain-claude-code-v1.0.0.zip) | Skill y guía para Claude Code. |
-| **ChatGPT** | [Descargar ZIP](dist/archisolut-digital-brain-chatgpt-v1.0.0.zip) | Skill y alternativas de configuración según las funciones disponibles. |
-| **OpenAI Codex** | [Descargar ZIP](dist/archisolut-digital-brain-codex-v1.0.0.zip) | Skill y guía para Codex. |
-| **GitHub Copilot** | [Descargar ZIP](dist/archisolut-digital-brain-copilot-v1.0.0.zip) | Skill y guía para entornos compatibles de Copilot. |
-| **Gemini CLI** | [Descargar ZIP](dist/archisolut-digital-brain-gemini-cli-v1.0.0.zip) | Skill y guía para Gemini CLI. |
-| **Cursor** | [Descargar ZIP](dist/archisolut-digital-brain-cursor-v1.0.0.zip) | Skill y guía para Cursor. |
-| **Windsurf / Devin Local** | [Descargar ZIP](dist/archisolut-digital-brain-windsurf-v1.0.0.zip) | Paquete adaptable; verifica la compatibilidad con tu edición. |
-| **Google Antigravity** | [Descargar ZIP](dist/archisolut-digital-brain-antigravity-v1.0.0.zip) | Skill y guía de integración para el entorno compatible. |
-| **Otras IA / Archiebot / chats sin Skills** | [Descargar instrucciones](dist/archisolut-digital-brain-instrucciones-chat-v1.0.0.zip) | Texto de instrucciones para copiar en tu asistente, cuando esté permitido. |
+| **Claude Code** | [Descargar ZIP](https://github.com/Architectural-Solutions/archisolut-ai-hub/raw/refs/heads/main/dist/archisolut-digital-brain-claude-code-v1.0.0.zip) | Skill y guía para Claude Code. |
+| **ChatGPT** | [Descargar ZIP](https://github.com/Architectural-Solutions/archisolut-ai-hub/raw/refs/heads/main/dist/archisolut-digital-brain-chatgpt-v1.0.0.zip) | Skill y alternativas de configuración según las funciones disponibles. |
+| **OpenAI Codex** | [Descargar ZIP](https://github.com/Architectural-Solutions/archisolut-ai-hub/raw/refs/heads/main/dist/archisolut-digital-brain-codex-v1.0.0.zip) | Skill y guía para Codex. |
+| **GitHub Copilot** | [Descargar ZIP](https://github.com/Architectural-Solutions/archisolut-ai-hub/raw/refs/heads/main/dist/archisolut-digital-brain-copilot-v1.0.0.zip) | Skill y guía para entornos compatibles de Copilot. |
+| **Gemini CLI** | [Descargar ZIP](https://github.com/Architectural-Solutions/archisolut-ai-hub/raw/refs/heads/main/dist/archisolut-digital-brain-gemini-cli-v1.0.0.zip) | Skill y guía para Gemini CLI. |
+| **Cursor** | [Descargar ZIP](https://github.com/Architectural-Solutions/archisolut-ai-hub/raw/refs/heads/main/dist/archisolut-digital-brain-cursor-v1.0.0.zip) | Skill y guía para Cursor. |
+| **Windsurf / Devin Local** | [Descargar ZIP](https://github.com/Architectural-Solutions/archisolut-ai-hub/raw/refs/heads/main/dist/archisolut-digital-brain-windsurf-v1.0.0.zip) | Paquete adaptable; verifica la compatibilidad con tu edición. |
+| **Google Antigravity** | [Descargar ZIP](https://github.com/Architectural-Solutions/archisolut-ai-hub/raw/refs/heads/main/dist/archisolut-digital-brain-antigravity-v1.0.0.zip) | Skill y guía de integración para el entorno compatible. |
+| **Otras IA / Archiebot / chats sin Skills** | [Descargar instrucciones](https://github.com/Architectural-Solutions/archisolut-ai-hub/raw/refs/heads/main/dist/archisolut-digital-brain-instrucciones-chat-v1.0.0.zip) | Texto de instrucciones para copiar en tu asistente, cuando esté permitido. |
 
 > **Importante:** estos archivos son paquetes de instrucciones, **no instaladores de software**. La posibilidad de importar o activar Skills depende de la plataforma, edición y cuenta. Los paquetes publicados no implican que se hayan validado todas las configuraciones de cada proveedor.
 
 ### Cómo empezar en cuatro pasos
 
-1. **Elige tu IA** en la tabla y haz clic en **Descargar ZIP**. En GitHub, abre el archivo y utiliza la opción de descarga si el navegador no inicia la descarga automáticamente.
+1. **Elige tu IA** en la tabla y haz clic en **Descargar ZIP**. El enlace apunta al archivo ZIP directamente; según la configuración de tu navegador, puede descargarse o solicitar que lo guardes.
 2. **Descomprime el ZIP** y **lee primero `LEEME.md`** (o el archivo de instrucciones incluido). Sigue únicamente el procedimiento correspondiente a tu herramienta.
-3. **Configura el Skill** según las capacidades de tu asistente. Si tu cuenta no admite Skills, utiliza la [alternativa para chats](dist/archisolut-digital-brain-instrucciones-chat-v1.0.0.zip) donde tu plataforma permita instrucciones persistentes.
+3. **Configura el Skill** según las capacidades de tu asistente. Si tu cuenta no admite Skills, utiliza la [alternativa para chats](https://github.com/Architectural-Solutions/archisolut-ai-hub/raw/refs/heads/main/dist/archisolut-digital-brain-instrucciones-chat-v1.0.0.zip) donde tu plataforma permita instrucciones persistentes.
 4. **Prueba sin datos sensibles:** «¿Qué es el Digital Brain de Archisolut, qué debes consultar antes de reutilizar una solución y qué permisos necesitas para acceder al Vault?». La IA debe explicar la metodología **sin fingir que puede ver los documentos protegidos**.
 
 **¿No tienes acceso al Digital Brain?** Puedes usar la metodología general del Skill, pero no podrás consultar sus archivos hasta contar con la autorización y una integración compatible. Solicita el acceso por los canales corporativos establecidos; **nunca compartas contraseñas o tokens por chat**.
